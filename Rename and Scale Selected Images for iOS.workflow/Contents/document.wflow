@@ -18,172 +18,6 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.2.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>defaultLocation</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<true/>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
-					<key>granularity</key>
-					<dict/>
-					<key>multipleSelection</key>
-					<dict/>
-					<key>promptMessage</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>Choose Images to Rename:</string>
-						</array>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Ask for Finder Items.action</string>
-				<key>ActionName</key>
-				<string>Ask for Finder Items</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>defaultLocation</key>
-					<string>~</string>
-					<key>granularity</key>
-					<integer>0</integer>
-					<key>multipleSelection</key>
-					<true/>
-					<key>promptMessage</key>
-					<string>Choose Images to Rename:</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.AskForFinderItems</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<false/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMAskForFinderItemsAction</string>
-				<key>InputUUID</key>
-				<string>237FB17F-315C-4474-8A5D-4BA0C3B178EA</string>
-				<key>Keywords</key>
-				<array>
-					<string>Find</string>
-					<string>Item</string>
-					<string>File</string>
-					<string>Folder</string>
-					<string>Ask</string>
-					<string>Choose</string>
-					<string>Prompt</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>9C0C7E67-3495-4256-BF60-06E52C2A7252</string>
-				<key>UUID</key>
-				<string>3297CD34-8D4A-48C7-93AB-5D64ADCD644F</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>multipleSelection</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>granularity</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<string>~/Desktop</string>
-						<key>name</key>
-						<string>defaultLocation</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string>Choose a Finder Item:</string>
-						<key>name</key>
-						<string>promptMessage</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>302.000000:782.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
 					<false/>
 					<key>Types</key>
 					<array>
@@ -335,7 +169,7 @@
 				<key>Class Name</key>
 				<string>AMRenameFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>4007DC32-D4B6-45C3-84B5-D83A0D292305</string>
+				<string>8F0913C3-A002-4B9B-A027-689841FCE0DE</string>
 				<key>Keywords</key>
 				<array>
 					<string>Name</string>
@@ -356,9 +190,9 @@
 					<string>Sequential</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>BC347A4E-FECE-4F82-9297-1CB1E20E8BAC</string>
+				<string>ED59AFDE-280D-463F-9ACA-4FD36C103D64</string>
 				<key>UUID</key>
-				<string>7DD46830-8390-4DBC-BC94-9872403409B0</string>
+				<string>1428A6EA-B301-4D04-B67C-3482C8716AD8</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -652,8 +486,6 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -718,7 +550,7 @@
 				<key>Class Name</key>
 				<string>AMDuplicateFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>A6E7E84A-48F1-4ADA-AF84-0B37BCEB16AE</string>
+				<string>ABAE1B54-2D9E-4369-AAEB-9BECDC88B2B3</string>
 				<key>Keywords</key>
 				<array>
 					<string>Duplicate</string>
@@ -726,17 +558,15 @@
 					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>913BD98B-FD42-4494-A6E3-B0F79933AA3E</string>
+				<string>8740E06E-1834-4156-BF7F-359742525921</string>
 				<key>UUID</key>
-				<string>EF13BEC6-E859-485D-B31E-13946EE72A1D</string>
+				<string>94D42AD1-9FA9-4D63-B780-2F5BA41FF752</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -889,7 +719,7 @@
 				<key>Class Name</key>
 				<string>AMRenameFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>B372C89E-AB92-4CCB-B2EF-AC5620D01FEF</string>
+				<string>EDC2BD09-665D-44D1-A3AD-E6942EB921CB</string>
 				<key>Keywords</key>
 				<array>
 					<string>Name</string>
@@ -910,9 +740,9 @@
 					<string>Sequential</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>50911015-DA6E-4412-934C-58F7B2F2FDC5</string>
+				<string>C646F078-5CE9-466A-983B-3D19C89288A9</string>
 				<key>UUID</key>
-				<string>D22A9C71-0261-4455-AC40-214BCEEFA4ED</string>
+				<string>564BCBF0-0267-4B75-8BBA-1ECEF1A4FFA1</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -1206,8 +1036,6 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -1288,7 +1116,7 @@
 				<key>Class Name</key>
 				<string>AMScaleImagesAction</string>
 				<key>InputUUID</key>
-				<string>9DF91D72-A55E-4331-BA34-5BC0970DA97D</string>
+				<string>96C889A1-71EC-4259-8EA6-ED9C5E8E82CD</string>
 				<key>Keywords</key>
 				<array>
 					<string>Image</string>
@@ -1297,9 +1125,9 @@
 					<string>Change</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>46B428D8-3C84-4FF6-B6CA-9F1AF2815C94</string>
+				<string>DCB0C612-D5DF-4125-A809-87D13CD7E6AB</string>
 				<key>UUID</key>
-				<string>D0ACA3A5-8E0F-4857-9835-A9BF7820659E</string>
+				<string>7D58EC06-E3D4-48B1-9795-2601895CFAD3</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Preview</string>
@@ -1359,8 +1187,6 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -1374,39 +1200,42 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>74E026FB-08B1-495A-8C4B-4AED78421D2F</key>
+		<key>0AED51B6-ED74-41DB-B1F6-97AD163F6979</key>
 		<dict>
 			<key>from</key>
-			<string>3297CD34-8D4A-48C7-93AB-5D64ADCD644F - 3297CD34-8D4A-48C7-93AB-5D64ADCD644F</string>
+			<string>1428A6EA-B301-4D04-B67C-3482C8716AD8 - 1428A6EA-B301-4D04-B67C-3482C8716AD8</string>
 			<key>to</key>
-			<string>7DD46830-8390-4DBC-BC94-9872403409B0 - 7DD46830-8390-4DBC-BC94-9872403409B0</string>
+			<string>94D42AD1-9FA9-4D63-B780-2F5BA41FF752 - 94D42AD1-9FA9-4D63-B780-2F5BA41FF752</string>
 		</dict>
-		<key>961E55CB-15DC-4A7E-B3AA-5E8CF89F9030</key>
+		<key>CCB71375-C004-434C-AA1A-3DE47159FCBB</key>
 		<dict>
 			<key>from</key>
-			<string>D22A9C71-0261-4455-AC40-214BCEEFA4ED - D22A9C71-0261-4455-AC40-214BCEEFA4ED</string>
+			<string>94D42AD1-9FA9-4D63-B780-2F5BA41FF752 - 94D42AD1-9FA9-4D63-B780-2F5BA41FF752</string>
 			<key>to</key>
-			<string>D0ACA3A5-8E0F-4857-9835-A9BF7820659E - D0ACA3A5-8E0F-4857-9835-A9BF7820659E</string>
+			<string>564BCBF0-0267-4B75-8BBA-1ECEF1A4FFA1 - 564BCBF0-0267-4B75-8BBA-1ECEF1A4FFA1</string>
 		</dict>
-		<key>A1A7847A-0F82-468A-8070-AC041E993EBB</key>
+		<key>ECB5FE34-45F3-4FD3-94DC-87046BD583A8</key>
 		<dict>
 			<key>from</key>
-			<string>EF13BEC6-E859-485D-B31E-13946EE72A1D - EF13BEC6-E859-485D-B31E-13946EE72A1D</string>
+			<string>564BCBF0-0267-4B75-8BBA-1ECEF1A4FFA1 - 564BCBF0-0267-4B75-8BBA-1ECEF1A4FFA1</string>
 			<key>to</key>
-			<string>D22A9C71-0261-4455-AC40-214BCEEFA4ED - D22A9C71-0261-4455-AC40-214BCEEFA4ED</string>
-		</dict>
-		<key>BAE16F4F-B1AA-46A3-B266-BF41159350FA</key>
-		<dict>
-			<key>from</key>
-			<string>7DD46830-8390-4DBC-BC94-9872403409B0 - 7DD46830-8390-4DBC-BC94-9872403409B0</string>
-			<key>to</key>
-			<string>EF13BEC6-E859-485D-B31E-13946EE72A1D - EF13BEC6-E859-485D-B31E-13946EE72A1D</string>
+			<string>7D58EC06-E3D4-48B1-9795-2601895CFAD3 - 7D58EC06-E3D4-48B1-9795-2601895CFAD3</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>serviceApplicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject.image</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.application</string>
+		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
 </dict>
 </plist>

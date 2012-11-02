@@ -8,4 +8,10 @@ I usually create `service` workflows for system-wide services available in `Serv
 Usage
 -----
 
-Just clone the repo and link each .workflow file you want to use to `~/Library/Services` folder.
+Just clone the repo to`~/Library/Services` folder, or copy each .workflow file to `~/Library/Services` folder
+
+Rename and Scale Selected Images for iOS
+----------------------------------------
+
+  * Append `@2x` to the filename (i.e image.png to image@2x.png).
+  * Duplicates and renames them back to original names and scale them half the size.
