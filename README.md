@@ -8,7 +8,9 @@ I usually create `service` workflows for system-wide services available in `Serv
 Usage
 -----
 
-Just clone the repo to`~/Library/Services` folder, or copy each .workflow file to `~/Library/Services` folder
+Just clone the repo to`~/Library/Services` folder, or copy each .workflow file to `~/Library/Services` folder.
+
+You can find some additional information on muy blog page: http://www.laplacesdemon.com/2012/11/02/mac-automator-for-renaming-files/
 
 Rename and Scale Selected Images for iOS
 ----------------------------------------
