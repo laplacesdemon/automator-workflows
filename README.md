@@ -10,7 +10,18 @@ Usage
 
 Just clone the repo to`~/Library/Services` folder, or copy each .workflow file to `~/Library/Services` folder.
 
-You can find some additional information on muy blog page: http://www.laplacesdemon.com/2012/11/02/mac-automator-for-renaming-files/
+To clone directly
+
+    cd ~/Library/Services
+    git clone https://github.com/laplacesdemon/automator-workflows.git .
+    
+After cloning, all you have to do is:
+
+ * Open finder
+ * Find some images and highlight them
+ * There is a "Finder" menu on top-left, next to apple logo. From that menu select "Services" and then select "Rename and Scale Selected Images for iOS"
+
+You can find some additional information on my blog page: http://www.laplacesdemon.com/2012/11/02/mac-automator-for-renaming-files/
 
 Rename and Scale Selected Images for iOS
 ----------------------------------------
