@@ -17,9 +17,9 @@ To clone directly
     
 After cloning, all you have to do is:
 
- * Open finder
+ * Open `Finder`
  * Find some images and highlight them
- * There is a "Finder" menu on top-left, next to apple logo. From that menu select "Services" and then select "Rename and Scale Selected Images for iOS"
+ * There is a `Finder` menu on top-left, next to apple logo. From that menu select `Services` and then select `Rename and Scale Selected Images for iOS`
 
 You can find some additional information on my blog page: http://www.laplacesdemon.com/2012/11/02/mac-automator-for-renaming-files/
 
